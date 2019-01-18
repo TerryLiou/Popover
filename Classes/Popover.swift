@@ -433,7 +433,7 @@ private extension Popover {
 
     let fillLayer = CAShapeLayer()
     fillLayer.path = path.cgPath
-    fillLayer.fillRule = CAShapeLayerFillRule.evenOdd
+//  fillLayer.fillRule = CAShapeLayerFillRule.evenOdd
     fillLayer.fillColor = self.blackOverlayColor.cgColor
     self.blackOverlay.layer.addSublayer(fillLayer)
   }
